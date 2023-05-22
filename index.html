@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Milk</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 30px;
+    }
+
+    .jumbotron {
+      background-image: url('milk-banner.jpg');
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      font-size: 20px;
+      padding: 10px 30px;
+      margin-top: 20px;
+    }
+
+    .product-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .product-info img {
+      max-width: 300px;
+      margin-right: 30px;
+    }
+
+    .product-info h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .product-info p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>Delicious Milk</h1>
+    <p>Enjoy the goodness of fresh and nutritious milk!</p>
+    <a href="#product-section" class="btn btn-primary">Discover More</a>
+  </div>
+
+  <section id="product-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="product-info">
+            <img src="milk-bottle.jpg" alt="Milk Bottle">
+            <div>
+              <h2>Our Milk</h2>
+              <p>Our milk is sourced from local dairy farms and is 100% natural, free from artificial additives and hormones.
+                It's packed with essential nutrients, including calcium and vitamins, to support a healthy lifestyle.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="product-info">
+            <img src="milk-glass.jpg" alt="Milk in Glass">
+            <div>
+              <h2>Fresh and Creamy</h2>
+              <p>Experience the richness of our milk, with its smooth and creamy texture. It's perfect for enjoying on its
+                own, adding to your favorite recipes, or pairing with your morning cereal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section" class="bg-light">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>For inquiries or orders, please reach out to our friendly customer service team:</p>
+      <ul>
+        <li>Email: info@deliciousmilk.com</li>
+        <li>Phone: 123-456-7890</li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
